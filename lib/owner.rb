@@ -63,6 +63,7 @@ class Owner
     }
     self.dogs.each{|pet|
       pet.owner = nil
+      pet.mood = "nervous"
     }
   end
 
