@@ -60,6 +60,9 @@ class Owner
     self.cats.all.each{|pet|
       pet.owner = nil
     }
+    self.dogs.all.each{|pet|
+      pet.owner = nil
+    }
   end
 
 end
