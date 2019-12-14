@@ -68,12 +68,8 @@ class Owner
   end
 
   def list_pets
-    self.cats.each{ |x|
-      puts "#{x.name}"
-    }
-    self.dogs.each{ |x|
-      puts "#{x.name}"
-    }
+    puts "I have #{self.dogs.count} dog(s), and #{
+    self.cats.length} cats"
   end
 
 end
