@@ -44,4 +44,9 @@ class Owner
     c = Dog.new(name, self)
   end
 
+  def walks_dogs
+    dogs = self.dogs
+
+  end
+
 end
