@@ -57,7 +57,9 @@ class Owner
   end
 
   def sell_pets
-
+    self.cats.all.each{|pet|
+      pet.owner = nil
+    }
   end
 
 end
